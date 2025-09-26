@@ -6,3 +6,4 @@ services:
     ports:
       - "3000:80"
     container_name: fit-track-frontend
+    restart: unless-stopped
